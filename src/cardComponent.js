@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import cardPhoto from './IMG_5954.jpeg';
 
 class Card extends React.Component {
@@ -6,7 +6,7 @@ class Card extends React.Component {
         return (
             <article className="Card">
                 <figure>
-                    <img src={cardPhoto}></img>
+                    <img src={cardPhoto} alt="Restaurant"></img>
                     <hgroup>
                         <h3>
                             Business Name

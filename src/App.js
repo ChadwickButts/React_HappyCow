@@ -1,4 +1,4 @@
-import DefaultMessage from "./DefaultMessage";
+//import DefaultMessage from "./DefaultMessage";
 import Card from "./cardComponent";
 
 function App() {
