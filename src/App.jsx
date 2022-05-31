@@ -1,10 +1,10 @@
 import React from "react";
-import Greetings from "./Greetings";
+import Search from "./Search";
 
 export default function App() {
     return (
         <div>
-            <Greetings></Greetings>
+            <Search></Search>
         </div>
     )
 }

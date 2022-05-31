@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const regeneratorRuntime = require("regenerator-runtime");
 
 module.exports = {
     mode: "development",
@@ -25,7 +26,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'HappyCow Development',
-            template: '/src/index.html'
+            template: './src/index.html'
         })
     ],
     devServer: {
